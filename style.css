@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    max-width: 700px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFE4C4;
+}
+img{
+    border-radius: 50%;
+}
+.headerHeading{
+    border-bottom: 2px solid #DEB887;
+}
+main{
+    padding: 10px 20px;
+    border: 20px solid #FFE4C4;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFE4C4;
+}
+section{
+    padding: 10px;
+}
+h2, h3, h4, p{
+    padding: 10px;
+}
+h3{
+    border-bottom: 3px solid #DEB887;
+}
+.code{
+    border: 2px solid #DEB887;
+    background-color: #FFE4C4;
+}
+code{
+    font-family: 'Courier New', Courier, monospace;
+}
