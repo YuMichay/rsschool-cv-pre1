@@ -55,4 +55,4 @@ The Minsk College of Finance and Economics - 2014-2016 (Accounting)
 
 Belarusian State University of Economics - 2016-2019 (only 3 courses, Accounting)  
 ## English level:  
-**_A2_** - I can talk about general life topics and tell about myself. I'm good at listening to English and can read technical literature.
+**_A2_** - I can talk about general life topics and tell about myself. I'm good at listening to English. And I can read technical literature.
