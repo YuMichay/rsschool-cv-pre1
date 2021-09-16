@@ -6,29 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
+        <nav>
+            <ul class="menu">
+                <li><a class="menu-link" href=#purpose>Purpose</a></li>
+                <li><a class="menu-link" href=#skills>Skills</a></li>
+                <li><a class="menu-link" href=#personal>Personal</a></li>
+                <li><a class="menu-link" href=#experience>Experience and education</a></li>
+                <li><a class="menu-link" href=#english>English</a></li>
+                <li><a class="menu-link" href=#contacts>Contacts</a></li>
+            </ul>
+        </nav>
         <figure class="photo">
             <img class="myPhoto" src="FSPPE4525sqr.jpg" alt="my photo" width="300" height="300">
+            <figcaption class="sign">
+                <h1>Yuliya Mizhevich</h1>
+                <h2>Front-end Developer</h2>
+            </figcaption>
         </figure>
-        <div class="contacts">
-            <h1>Yuliya Mizhevich</h1>
-            <h2>Front-end Developer</h2>
-            <h3 class="headerHeading">Contacts</h3>
-            <p>e-mail: julia.one.such@gmail.com</p>
-            <p>phone: +375257915817</p>
-            <p>telegram: @YuliyaMrr</p>
-            <p>GitHub: <a href="https://github.com/YuMichay">https://github.com/YuMichay</a></p>
-        </div>
     </header>
     <main>
         <div class="info">
-            <section class="purpose">
+            <section class="purpose" id="purpose">
                 <h3>Purpose:</h3>
-                <p>Our world is constantly changing, and I'm changing with it. Therefore, I decided to develop in the IT. This sphere moves on all the time and always keeps up with the times. I like to see the result of my work and share it with everyone. That's why I chose Front-end development. There is a place for creativity and technical thinking. Therefore, I'll be happy to use all my abilities in your projects.</p>
+                <p>I like to see the result of my work and share it with everyone. That's why I chose Front-end development. There is a place for creativity and technical thinking. Now I'm improving my skills and looking for a place where I can show them and get new ones. I'll be happy to use all my abilities in your projects!</p>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h3>Skills</h3>
                 <h4>Main:</h4>
                 <ul>
@@ -50,7 +56,7 @@
                     <li>VS Code</li>
                     <li>WebStorm</li>
                 </ul>
-                <h3>Personal:</h3>
+                <h3 id="personal">Personal:</h3>
                 <h4>love of:</h4>
                 <ul>
                     <li>learning</li>
@@ -59,7 +65,7 @@
                     <li>improvement</li>
                     <li>time-management</li>
                 </ul>
-                <h4>Personal qualities:</h4>
+                <h4>personal qualities:</h4>
                 <ul>
                     <li>sociability</li>
                     <li>flexibility</li>
@@ -67,11 +73,11 @@
                     <li>independence</li>
                     <li>activity</li>
                 </ul>
-                <h3>Experience and education:</h3>
+                <h3 id="experience">Experience and education:</h3>
                 <h4>Courses:</h4>
                 <ul>
                     <li>Code-basics (HTML/CSS/JS)</li>
-                    <li>JetBrains Academy (<a href="https://yumichay.github.io/JetBrainsAcademy">https://yumichay.github.io/JetBrainsAcademy</a>)</li>
+                    <li>JetBrains Academy (<a href="https://yumichay.github.io/JetBrainsAcademy" target="_blank">https://yumichay.github.io/JetBrainsAcademy</a>)</li>
                     <li>Stepik (Javascript)</li>
                     <li>RS School(stage0)</li>
                 </ul>
@@ -82,16 +88,30 @@
                 <h4>Work:</h4>
                 <p>LLC "OZ Books" - seller</p>
                 <p>LLC "Triovist" - administrator</p>
-                <h3>English level:</h3>
+                <h3 id="english">English level:</h3>
                 <p>A2 - I can talk about general life topics and tell about myself. I'm good at listening to English. And I can read technical literature.</p>
             </section>
+            <section id="contacts">
+                <div class="contacts">
+                    <h3>Contacts</h3>
+                    <p>e-mail: julia.one.such@gmail.com</p>
+                    <p>phone: +375257915817</p>
+                    <p>telegram: @YuliyaMrr</p>
+                    <p>GitHub: <a href="https://github.com/YuMichay" target="_blank">https://github.com/YuMichay</a></p>
+                </div>
+            </section>
+            <div class="up">
+                <a href="#">Up</a>
+            </div>
         </div>
     </main>
     <footer>
-        <a href="https://github.com/YuMichay">GitHub</a>
-        <a href="https://rs.school/js/">RS School</a>
-        <img class="logo" src="rs_school_js.svg" alt="logo">
-        <p>2021</p>
+        <p class="by-me">© 2021 by Yuliya Mizhevich</p>
+        <div class="links">
+            <a class="footer link" href="https://github.com/YuMichay" target="_blank">GitHub</a>
+            <a class="footer link" href="https://rs.school/js/" target="_blank">RS School</a>
+            <img class="logo link" src="rs_school_js.svg" alt="logo">
+        </div>
     </footer>
 </body>
 </html>

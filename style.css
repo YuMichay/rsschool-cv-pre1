@@ -1,20 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@media (max-width: 320px) {
+    
+}
 * {
     max-width: 100vw;
     margin: auto;
     font-family: 'Playfair Display', serif;
-    word-break: break-word;
+    scroll-behavior: smooth;
 }
 header{
+    background-color: #FFE4C4;
+    text-align: center;
+    padding: 20px;
+}
+.photo{
     display: flex;
     flex-direction: row;
-    background-color: #FFE4C4;
+    padding: 20px 0 0;
 }
-img{
-    border-radius: 50%;
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid #DEB887;
+    padding: 20px 0 0;
 }
-.headerHeading{
-    border-bottom: 2px solid #DEB887;
+.up{
+    background-color: rgba(255, 228, 196, 0.5);
+    width: 100%;
+    text-align: center;
+}
+a.menu-link{
+    display: block;
+    font-size: large;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #FFE4C4;
+}
+a.footer{
+    color: black;
+}
+a:hover{
+    color: #DEB887;
+}
+a::after{
+    color: #DEB887;
 }
 main{
     min-width: 5vw;
@@ -28,6 +61,7 @@ footer{
 }
 section{
     padding: 10px;
+    word-break: break-word;
 }
 h2, h3, h4, p{
     padding: 10px;
@@ -45,4 +79,22 @@ code{
 .logo{
     height: 50px;
     width: 50px;
+    margin-right: 20px;
+}
+.sign{
+    padding: 20px 0;
+}
+.myPhoto{
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.by-me{
+    margin-left: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+}
+.link{
+    padding: 0 20px;
 }
